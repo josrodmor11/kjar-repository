@@ -16,6 +16,12 @@
             <parameters/>
             <name>CustomRESTWIH</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.kie.CustomCalendarWIH()</identifier>
+            <parameters/>
+            <name>CustomCalendarWIH</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
