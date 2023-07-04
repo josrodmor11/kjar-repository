@@ -100,6 +100,20 @@
             "Result" : new StringDataType()
         ]
     ],
+    
+    [
+        "name" : "CustomCalendarWIH",
+        "displayName" : "Tarea Calendario",
+        "icon" : "defaultwebserviceicon.png",
+
+        "parameters" : [
+            "Month" : new StringDataType(),
+            "Year" : new StringDataType()
+        ],
+        "results" : [
+            "Result" : new StringDataType()
+        ]
+    ],
 
     [
         "name" : "WebService",
@@ -133,6 +147,7 @@
           "Message" : new StringDataType()
         ]
     ],
+    
 
     [
         "name" : "Milestone",
