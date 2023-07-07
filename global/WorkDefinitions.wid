@@ -107,8 +107,8 @@
         "icon" : "defaultwebserviceicon.png",
 
         "parameters" : [
-            "Month" : new StringDataType(),
-            "Year" : new StringDataType()
+            "Month" : new IntegerDataType(),
+            "Year" : new IntegerDataType()
         ],
         "results" : [
             "Result" : new StringDataType()
